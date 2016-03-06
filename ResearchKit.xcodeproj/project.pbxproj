@@ -227,7 +227,7 @@
 		86C40CA21A8D7C5C00081FAC /* ORKHealthQuantityTypeRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B421A8D7C5B00081FAC /* ORKHealthQuantityTypeRecorder.m */; };
 		86C40CA41A8D7C5C00081FAC /* ORKLocationRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B431A8D7C5B00081FAC /* ORKLocationRecorder.h */; };
 		86C40CA61A8D7C5C00081FAC /* ORKLocationRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B441A8D7C5B00081FAC /* ORKLocationRecorder.m */; };
-		86C40CA81A8D7C5C00081FAC /* ORKPedometerRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B451A8D7C5B00081FAC /* ORKPedometerRecorder.h */; };
+		86C40CA81A8D7C5C00081FAC /* ORKPedometerRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B451A8D7C5B00081FAC /* ORKPedometerRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40CAA1A8D7C5C00081FAC /* ORKPedometerRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B461A8D7C5B00081FAC /* ORKPedometerRecorder.m */; };
 		86C40CAC1A8D7C5C00081FAC /* ORKRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C40B471A8D7C5B00081FAC /* ORKRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C40CAE1A8D7C5C00081FAC /* ORKRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C40B481A8D7C5B00081FAC /* ORKRecorder.m */; };

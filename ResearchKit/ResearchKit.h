@@ -72,6 +72,7 @@
 #import <ResearchKit/ORKPasscodeViewController.h>
 
 #import <ResearchKit/ORKRecorder.h>
+#import <ResearchKit/ORKPedometerRecorder.h>
 #import <ResearchKit/ORKActiveStep.h>
 #import <ResearchKit/ORKActiveStepViewController.h>
 
