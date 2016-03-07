@@ -35,6 +35,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class ORKLocationRecorder;
+
+@protocol ORKLocationRecorderDelegate <ORKRecorderDelegate>
+
+@optional
+- (void)locationRecorderDidUpdateLocations:(NSArray *)locations;
+
+@end
+
 /**
  The `ORKLocationRecorder` class represents a recorder for collecting location data from CoreLocation.
  

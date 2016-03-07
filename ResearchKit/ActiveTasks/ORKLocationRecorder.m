@@ -145,6 +145,10 @@
             [self stop];
         });
     }
+    id delegate = self.delegate;
+    if ([delegate respondsToSelector:@selector(locationRecorderDidUpdateLocations:)]) {
+        [delegate locationRecorderDidUpdateLocations:locations];
+    }
 }
 
 - (void)finishRecordingWithError:(NSError *)error {
