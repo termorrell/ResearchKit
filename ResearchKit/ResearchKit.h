@@ -31,6 +31,7 @@
 
 #import <ResearchKit/ORKDefines.h>
 
+#import <ResearchKit/ORKDataLogger.h>
 #import <ResearchKit/ORKTask.h>
 #import <ResearchKit/ORKOrderedTask.h>
 #import <ResearchKit/ORKNavigableOrderedTask.h>
