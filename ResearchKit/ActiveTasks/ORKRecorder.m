@@ -201,7 +201,7 @@
     // Class B data protection for temporary file during active task logging.
     ORKDataLogger *logger = [[ORKDataLogger alloc] initWithDirectory:workingDir logName:logName formatter:[ORKJSONLogFormatter new] delegate:nil];
     
-    logger.fileProtectionMode = ORKFileProtectionCompleteUnlessOpen;
+    logger.fileProtectionMode = ORKFileProtectionCompleteUntilFirstUserAuthentication;
     return logger;
 }
 
