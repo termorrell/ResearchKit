@@ -86,7 +86,7 @@
     
     self.locationManager = [self createLocationManager];
     if ([CLLocationManager authorizationStatus] <= kCLAuthorizationStatusDenied) {
-        [self.locationManager requestWhenInUseAuthorization];
+        [self.locationManager requestAlwaysAuthorization];
     }
     self.locationManager.pausesLocationUpdatesAutomatically = NO;
     self.locationManager.delegate = self;
